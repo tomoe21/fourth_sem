@@ -1,4 +1,4 @@
-public class BinaryTree {
+public class q6 {
 	Node root;
 	boolean isBST() {
 		return isBSTUntil(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
