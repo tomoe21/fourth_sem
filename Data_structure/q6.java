@@ -11,7 +11,7 @@ public class q6 {
 	
 	public static void main(String[] args) {
 		
-		BinaryTree tree = new BinaryTree();
+		q6 tree = new q6();
         tree.root = new Node(3);
         tree.root.left = new Node(2);
         tree.root.right = new Node(4);
