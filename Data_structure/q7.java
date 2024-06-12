@@ -1,3 +1,11 @@
+public class Node{
+	int info;
+	Node left,right;
+	Node(int info){
+		this.info=info;
+		left=right=null;
+	}
+}
 public class BinarySearchTree {
 	Node root;
 	BinarySearchTree(){
@@ -75,11 +83,4 @@ public class BinarySearchTree {
         bst.inorder();
 	}
 }
-public class Node{
-	int info;
-	Node left,right;
-	Node(int info){
-		this.info=info;
-		left=right=null;
-	}
-}
+
